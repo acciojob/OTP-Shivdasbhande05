@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.code-container {
+	height : 50px;
+	width : 50px;
+	display : flex;
+	align-items : center;
+}
+
+.otp {
+	height : 50px;
+	width : 50px;
+	margin : 5px;
+	display : inline;
+}
