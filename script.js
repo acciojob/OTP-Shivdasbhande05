@@ -1,5 +1,5 @@
 //your JS code here. If required.
-var inputs = document.querySelectorAll('.otp');
+var inputs = document.querySelectorAll('.code');
 
 for(let i =0; i < inputs.length; i++){
 	inputs[i].addEventListener('input', function() {
