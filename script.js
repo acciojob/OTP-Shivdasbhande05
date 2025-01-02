@@ -11,7 +11,7 @@ for(let i =0; i < inputs.length; i++){
 	});
 
 	inputs[i].addEventListener('keydown', function (e) {
-		if(e.key === 'Backspace' && this.value.length == 0){
+		if(e.key === 'Backspace' && this.value.length === 0){
 			if (i > 0){
 				inputs[i-1].focus();
 			}
