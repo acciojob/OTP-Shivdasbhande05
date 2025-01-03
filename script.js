@@ -1,6 +1,5 @@
 //your JS code here. If required.
-document.addEventListener("DOMContentLoaded" , () => {
-	var inputs = document.querySelectorAll('.code');
+var inputs = document.querySelectorAll('.code');
 
 for(let i =0; i < inputs.length; i++){
 	inputs[i].addEventListener('input', function() {
@@ -19,4 +18,4 @@ for(let i =0; i < inputs.length; i++){
 		}
 	});
 }
-});
+

@@ -17,3 +17,6 @@
     border-color: #007bff;
     box-shadow: 0 0 3px #007bff;
   }
+.code:disabled {
+	background-color : #e9e9e9;
+}
