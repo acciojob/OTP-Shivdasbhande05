@@ -19,3 +19,4 @@ for(let i =0; i < inputs.length; i++){
 	});
 }
 
+inputs[0].focus();
